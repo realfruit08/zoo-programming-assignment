@@ -13,7 +13,7 @@ public class WASDControls : MonoBehaviour
     void Update()
     {
         float movespeed = 5;
-        float sprint = 10f;
+        float sprint = 13f;
         if (Input.GetKey(KeyCode.LeftShift))
         {
             movespeed = sprint;
