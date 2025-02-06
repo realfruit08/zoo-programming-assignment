@@ -53,5 +53,11 @@ TagManager:
   - name: Jane
     uniqueID: 2452518181
     locked: 0
+  - name: Controls
+    uniqueID: 3028883829
+    locked: 0
+  - name: Fences
+    uniqueID: 3160319025
+    locked: 0
   m_RenderingLayers:
   - Default
