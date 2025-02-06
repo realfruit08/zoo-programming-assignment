@@ -1,34 +1,37 @@
 fileFormatVersion: 2
-guid: 068126377680875448d98dd09e621d2c
+guid: 5c584c8fca09d7f45aa386a1cf717c15
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7113479977989563460
-    second: Controls_0
+      213: -4319964538140293128
+    second: Shift_0
   - first:
-      213: 7908859509845356740
-    second: Controls_1
+      213: 5148055469920256037
+    second: Shift_1
   - first:
-      213: -1182029525264311852
-    second: Controls_2
+      213: 7608646308734572560
+    second: Shift_2
   - first:
-      213: -9178436727053285969
-    second: Controls_3
+      213: 1025042490921362138
+    second: Shift_3
   - first:
-      213: 5435598692034458543
-    second: Controls_4
+      213: -5209520817023885528
+    second: Shift_4
   - first:
-      213: 7677017001573760164
-    second: Controls_5
+      213: -3711829764646869074
+    second: Shift_5
   - first:
-      213: 5662351501324986388
-    second: Controls_6
+      213: 1603085641115239371
+    second: Shift_6
   - first:
-      213: -3769267780431834326
-    second: Controls_7
+      213: -128600967108486220
+    second: Shift_7
   - first:
-      213: 2932384999566084858
-    second: Controls_8
+      213: 3392831840274897582
+    second: Shift_8
+  - first:
+      213: 4157444828176679678
+    second: Shift_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -150,13 +153,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Controls_0
+      name: Shift_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 61
-        width: 19
-        height: 17
+        x: 4
+        y: 149
+        width: 75
+        height: 45
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,19 +168,195 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbb141b16a7d74d90800000000000000
-      internalID: -7113479977989563460
+      spriteID: 8f70dd504276c04c0800000000000000
+      internalID: -4319964538140293128
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Controls_1
+      name: Shift_1
       rect:
         serializedVersion: 2
-        x: 5
-        y: 41
-        width: 14
+        x: 78
+        y: 149
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5208a90ac21917740800000000000000
+      internalID: 5148055469920256037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_2
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 123
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01816b56187579960800000000000000
+      internalID: 7608646308734572560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_3
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 124
+        width: 36
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad2ac0fe6bea93e00800000000000000
+      internalID: 1025042490921362138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_4
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 124
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82fd94b0b6014b7b0800000000000000
+      internalID: -5209520817023885528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 112
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea76083ce7eec7cc0800000000000000
+      internalID: -3711829764646869074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_6
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 124
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc30437a5ed4f3610800000000000000
+      internalID: 1603085641115239371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_7
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 140
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb1abd0a1e173ef0800000000000000
+      internalID: -128600967108486220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_8
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 125
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa583e2592c51f20800000000000000
+      internalID: 3392831840274897582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shift_9
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 123
+        width: 17
         height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -187,162 +366,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4c07dce32d9e1cd60800000000000000
-      internalID: 7908859509845356740
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls_2
-      rect:
-        serializedVersion: 2
-        x: 22
-        y: 61
-        width: 13
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d9d890d866989fe0800000000000000
-      internalID: -1182029525264311852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls_3
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 60
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa5079a1d64af9080800000000000000
-      internalID: -9178436727053285969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls_4
-      rect:
-        serializedVersion: 2
-        x: 47
-        y: 60
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa3ba4c16302f6b40800000000000000
-      internalID: 5435598692034458543
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls_5
-      rect:
-        serializedVersion: 2
-        x: 18
-        y: 41
-        width: 12
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4ac3071d94e3a8a60800000000000000
-      internalID: 7677017001573760164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls_6
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 40
-        width: 27
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41820e5a0b6b49e40800000000000000
-      internalID: 5662351501324986388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls_7
-      rect:
-        serializedVersion: 2
-        x: 59
-        y: 40
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a2319049ceed0bbc0800000000000000
-      internalID: -3769267780431834326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Controls_8
-      rect:
-        serializedVersion: 2
-        x: 69
-        y: 40
-        width: 11
-        height: 13
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: afa02d3ee9ce1b820800000000000000
-      internalID: 2932384999566084858
+      spriteID: ef281cc4b0632b930800000000000000
+      internalID: 4157444828176679678
       vertices: []
       indices: 
       edges: []
@@ -361,15 +386,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Controls_0: -7113479977989563460
-      Controls_1: 7908859509845356740
-      Controls_2: -1182029525264311852
-      Controls_3: -9178436727053285969
-      Controls_4: 5435598692034458543
-      Controls_5: 7677017001573760164
-      Controls_6: 5662351501324986388
-      Controls_7: -3769267780431834326
-      Controls_8: 2932384999566084858
+      Shift_0: -4319964538140293128
+      Shift_1: 5148055469920256037
+      Shift_2: 7608646308734572560
+      Shift_3: 1025042490921362138
+      Shift_4: -5209520817023885528
+      Shift_5: -3711829764646869074
+      Shift_6: 1603085641115239371
+      Shift_7: -128600967108486220
+      Shift_8: 3392831840274897582
+      Shift_9: 4157444828176679678
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
