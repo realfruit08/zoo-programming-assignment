@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bad0a0b5688b11f4f884df6111dcb026
+guid: 2d337c24bb344ce44b535b4757e0ec3c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7245715803210817152
-    second: Bracken_0
+      213: -1849703535576587039
+    second: Bone1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bracken_0
+      name: Bone1_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 20
-        width: 61
-        height: 42
+        x: 3
+        y: 6
+        width: 20
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0816f2ecddb027b90800000000000000
-      internalID: -7245715803210817152
+      spriteID: 1e46c2e3f688456e0800000000000000
+      internalID: -1849703535576587039
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Bracken_0: -7245715803210817152
+      Bone1_0: -1849703535576587039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
