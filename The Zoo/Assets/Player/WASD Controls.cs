@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class WASDControls : MonoBehaviour
 {
+    
     private SpriteRenderer spriteRenderer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -12,6 +13,7 @@ public class WASDControls : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+      
         float movespeed = 5;
         float sprint = 13f;
         if (Input.GetKey(KeyCode.LeftShift))
