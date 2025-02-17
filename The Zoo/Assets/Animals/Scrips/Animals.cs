@@ -25,7 +25,6 @@ public class Wolf : Animals
     public void Howl()
     {
         isHowling = true;
-
     }
 
 }
