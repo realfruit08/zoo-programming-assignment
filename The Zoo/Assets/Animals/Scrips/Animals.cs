@@ -35,8 +35,13 @@ public class Bird : Animals
     bool isFlying;
 
     public void Fly()
-    { 
+    {
         isFlying = true;
         moveSpeed = 2.0f;
     }
+}
+
+public class I : Animals
+{
+
 }
