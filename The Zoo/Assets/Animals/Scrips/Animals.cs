@@ -20,7 +20,6 @@ public class Lion : Animals
 
 public class Wolf : Animals
 {
-
     bool isHowling;
     public void Howl()
     {
@@ -29,10 +28,11 @@ public class Wolf : Animals
         if (Input.GetKeyUp(KeyCode.E))
         {
             hungerCount--;
-            if (hungerCount < 0)
+            if (hungerCount <= 0)
             {
                 isHowling = true;
             }
+            
         }
 
     }
@@ -42,7 +42,6 @@ public class Wolf : Animals
 public class Bird : Animals
 {
     bool isFlying;
-
     public void Fly()
     {
         isFlying = true;
