@@ -3,7 +3,7 @@ using UnityEngine;
 public abstract class Animals
 {
     public float hunger;
-    public float hungerSpeed;
+    public float hungerCount;
     public float move;
     public float moveSpeed;
     public float sleep;
@@ -20,11 +20,21 @@ public class Lion : Animals
 
 public class Wolf : Animals
 {
-    bool isHowling;
 
+    bool isHowling;
     public void Howl()
     {
-        isHowling = true;
+        hunger = 5;
+        hungerCount = hunger;
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            hungerCount--;
+            if (hungerCount < 0)
+            {
+                isHowling = true;
+            }
+        }
+
     }
 
 }
