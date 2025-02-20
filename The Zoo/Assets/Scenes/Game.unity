@@ -1118,8 +1118,8 @@ GameObject:
   - component: {fileID: 483900170}
   - component: {fileID: 483900169}
   m_Layer: 0
-  m_Name: Cute Flying Bird - Stone - PNG_0
-  m_TagString: Untagged
+  m_Name: Bird
+  m_TagString: Bird
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3454,7 +3454,7 @@ GameObject:
   - component: {fileID: 1606643341}
   m_Layer: 0
   m_Name: Lion
-  m_TagString: Untagged
+  m_TagString: Lion
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3763,8 +3763,8 @@ GameObject:
   - component: {fileID: 1751835888}
   - component: {fileID: 1751835887}
   m_Layer: 0
-  m_Name: Cool Wolf Sprite - png_0
-  m_TagString: Untagged
+  m_Name: Wolf
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

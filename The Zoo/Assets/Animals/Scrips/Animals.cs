@@ -11,6 +11,7 @@ public abstract class Animals
 
 public class Lion : Animals
 {
+    public GameObject lion;
     public void Wander()
     {
         Vector3 direction = Vector3.zero;
@@ -29,6 +30,7 @@ public class Lion : Animals
 
 public class Wolf : Animals
 {
+    public GameObject wolf;
     bool isHowling;
     public void Howl()
     {
@@ -50,6 +52,7 @@ public class Wolf : Animals
 
 public class Bird : Animals
 {
+    public GameObject bird;
     bool isFlying;
     public void Fly()
     {
@@ -63,7 +66,7 @@ public class Bird : Animals
     }
 }
 
-public class I : Animals
+public class Alligator : Animals
 {
 
 }
