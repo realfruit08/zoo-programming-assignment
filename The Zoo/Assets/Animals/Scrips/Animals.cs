@@ -7,6 +7,15 @@ public abstract class Animals
     public bool isMoving;
     public float moveSpeed;
     public bool isSleeping;
+    public Transform pointA;
+    public Transform pointB;
+
+    public Vector3 targetpoint;
+
+    void Start()
+    {
+        targetpoint = pointA.position;
+    }
 }
 
 public class Lion : Animals
@@ -45,23 +54,33 @@ public class Wolf : Animals
             }
             
         }
-
     }
-
 }
 
 public class Bird : Animals
 {
     public GameObject bird;
     bool isFlying;
+    bool isPerch;
     public void Fly()
     {
-        Vector3 direction = Vector3.zero;
         moveSpeed = 2.0f;
         if (Input.GetKeyDown(KeyCode.E))
         {
-            direction = Vector3.right;
             isFlying = true;
+            transform.position = Vector3.MoveTowards(transform.position, targetpoint, moveSpeed * Time.deltaTime);
+            if (Vector3.Distance(transform.position, pointA.positon) < 14.0f)
+            {
+                targetpoint = pointB.positon;
+            }
+            else if (Vector3.Distance(transform.position, pointB.positon) < 23.0f)
+            {
+                targetpoint = pointA.positon;
+            }
+        }
+        else
+        {
+            isPerch = true;
         }
     }
 }
