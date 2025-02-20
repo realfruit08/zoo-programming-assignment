@@ -53,8 +53,13 @@ public class Bird : Animals
     bool isFlying;
     public void Fly()
     {
-        isFlying = true;
+        Vector3 direction = Vector3.zero;
         moveSpeed = 2.0f;
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            direction = Vector3.right;
+            isFlying = true;
+        }
     }
 }
 
