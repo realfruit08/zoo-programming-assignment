@@ -4,17 +4,26 @@ public abstract class Animals
 {
     public float hunger;
     public float hungerCount;
-    public float move;
+    public bool isMoving;
     public float moveSpeed;
-    public float sleep;
-
+    public bool isSleeping;
 }
 
 public class Lion : Animals
 {
     public void Wander()
     {
-        moveSpeed = 1.0f;
+        Vector3 direction = Vector3.zero;
+        moveSpeed = 2.0f;
+        if (Input.GetKeyDown(KeyCode.E))
+        { 
+            isMoving = true;
+            direction = Vector3.up;
+        }
+        else
+        {
+            isSleeping = true; 
+        }
     }
 }
 
@@ -25,7 +34,7 @@ public class Wolf : Animals
     {
         hunger = 5;
         hungerCount = hunger;
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             hungerCount--;
             if (hungerCount <= 0)
