@@ -7,6 +7,7 @@ TagManager:
   - Lion
   - Bird
   - Wolf
+  - meat
   layers:
   - Default
   - TransparentFX

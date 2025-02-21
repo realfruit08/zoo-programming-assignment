@@ -1,17 +1,24 @@
 using UnityEngine;
+using UnityEngine.U2D;
 
 public class Lion : Animal
 {
     public GameObject lion;
+    public GameObject steak;
+    bool inRange = false;
+
     public void Wander()
     {
-        Vector3 direction = Vector3.zero;
+        hunger = 0;
+        hungerCount = hunger;
         moveSpeed = 2.0f;
         if (Input.GetKeyDown(KeyCode.E))
         {
             isMoving = true;
-            direction = Vector3.up;
+            transform.position = Vector3.MoveTowards(transform.position, targetpoint, moveSpeed * Time.deltaTime);
+            hungerCount++;
             Debug.Log("Moving");
+            Debug.Log("food" + hungerCount);
         }
         else
         {
@@ -20,8 +27,22 @@ public class Lion : Animal
         }
     }
 
-    void Update()
+    private void Update()
     {
-        Wander();
+        if (inRange)
+        {
+            Wander();
+        }
+    }
+
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        inRange = true;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        inRange = false;
     }
 }
